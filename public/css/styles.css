@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen',sans-serif;
+}
+#Mynav{
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px   ;
+}
+
+
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+header{
+    weight: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+#headerResim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;   
+    opacity: 1.2;
+    object-fit: cover;
+
+}
+section{
+    width: 100%;
+    height:auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,15);
+    margin-top: 15px;
+    overflow: auto;
+}
+.nvb{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+.nvb ul{
+    width:auto;
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+.nvb li{
+    list-style-type: none;
+}
+.nvb li a{
+    height: 50px;
+    line-height:50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+.nvb li a:hover{
+    color: white;
+    background-color: #adadad;
+}
+.footer{
+    height: 55px;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer a{
+    color: white;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+.icerik{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px   rgba(20, 23, 28, 15);
+   
+    margin-bottom: 10px;
+
+}
+h4{
+    margin: 10px;
+    color: dimgray;
+}
+.icerikText{
+    margin: 10px;
+    color: dimgray;
+}
+.btn:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #0071ce;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
